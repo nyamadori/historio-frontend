@@ -1,11 +1,15 @@
 module.exports = {
-  entry: './src/app.jsx',
+  entry: {
+    'lib/index':      './src/server',
+    'public/bundle': './src/client'
+  },
 
   output: {
-    filename: 'app.js',
-    path: './'
+    filename: '[name].js',
+    library: 'server',
+    libraryTarget: 'umd'
   },
-  
+
   module: {
     loaders: [
       {
@@ -17,5 +21,9 @@ module.exports = {
         }
       }
     ]
+  },
+
+  resolve: {
+    extensions: ['', '.jsx', '.js', '.json']
   }
 };
