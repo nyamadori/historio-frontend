@@ -1,0 +1,22 @@
+{
+  "name": "historio-frontend",
+  "version": "1.0.0",
+  "description": "Hack you way   Please take it with [Japanese version](README_ja.md) in this time.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyamadori/historio-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyamadori/historio-frontend/issues"
+  },
+  "homepage": "https://github.com/nyamadori/historio-frontend#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
