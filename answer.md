@@ -1,5 +1,5 @@
 ## 開発した作品について
-- [デプロイURL](ここにデプロイ先のURLを記入してください)
+- [historio-frontend](https://historio-frontend.herokuapp.com/)
 
 ## 選択したオリジナル実装機能
 ※ここに、選択したオリジナル実装機能について記載してください。
